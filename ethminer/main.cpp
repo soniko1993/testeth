@@ -1315,7 +1315,7 @@ int main(int argc, char** argv)
     auto* bi = ethminer_get_buildinfo();
     cout << endl
          << endl
-         << "ethminer " << bi->project_version << endl
+         << "ethminer by EDISON(TESTVERSION)" << bi->project_version << endl
          << "Build: " << bi->system_name << "/" << bi->build_type << "/" << bi->compiler_id << endl
          << endl;
 
