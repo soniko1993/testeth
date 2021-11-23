@@ -5,7 +5,7 @@ env:
 matrix:
     include:
         - os: linux
-          dist: trusty
+          dist: Bionic
           sudo: required
           env:
               - CUDA=ON
