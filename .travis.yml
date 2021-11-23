@@ -1,4 +1,13 @@
 language: cpp
+branches:
+    only:
+        - /^v\d+\..+$/
+        - master
+        - ci
+        - travis
+        - hunter
+        - coverity
+        - /^release.*$/
 matrix:
     include:
         - os: linux
